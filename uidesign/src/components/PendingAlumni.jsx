@@ -4,9 +4,9 @@ import { HeaderAdmin } from './HeaderAdmin'
 import { Header } from './Header'
 
 export const PendingAlumni = () => {
-    const ApiUrl = "http://localhost:1000/api/pendingalumni"
-    const deleteApi = "http://localhost:1000/api/deletealumni"
-    const verificationApi="http://localhost:1000/api/verifyalumni"
+    const ApiUrl = "api/pendingalumni"
+    const deleteApi = "api/deletealumni"
+    const verificationApi="api/verifyalumni"
     const [data,setData] = useState([])
     const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
 

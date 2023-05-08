@@ -10,7 +10,7 @@ export const Employersignup = () => {
 
     const navigate = useNavigate()
 
-    const apiUrl ="http://localhost:1000/api/addemployee"
+    const apiUrl ="api/addemployee"
 
     const changeData = (event) =>{
 

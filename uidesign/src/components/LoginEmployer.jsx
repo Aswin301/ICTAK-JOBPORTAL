@@ -7,7 +7,7 @@ import axios from 'axios';
 
 export const LoginEmployer = () => {
 
-  const apiUrl = "http://localhost:1000/api/employlogin"
+  const apiUrl = "api/employlogin"
 
   const [input,setInput] = useState({})
 

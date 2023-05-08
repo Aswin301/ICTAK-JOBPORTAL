@@ -6,7 +6,7 @@ import { IndividualJob } from './IndividualJob'
 
 export const SearchHome = () => {
 
-    const ApiUrl = "http://localhost:1000/api/searchjobfield"
+    const ApiUrl = "api/searchjobfield"
   const [data,setData] =useState([])
   const navigate = useNavigate()
   const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))

@@ -5,8 +5,8 @@ import { Header } from './Header'
 
 export const ViewAlumnis = () => {
 
-  const apiUrl = "http://localhost:1000/api/viewalumni"
-  const deleteApi = "http://localhost:1000/api/deletealumni"
+  const apiUrl = "api/viewalumni"
+  const deleteApi = "api/deletealumni"
   const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
 
 

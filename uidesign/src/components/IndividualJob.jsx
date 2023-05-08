@@ -10,7 +10,7 @@ export const IndividualJob = () => {
 
     const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
 
-    const apiUrl ="http://localhost:1000/api/viewsinglejob"
+    const apiUrl ="api/viewsinglejob"
 
     useEffect(()=>{
 

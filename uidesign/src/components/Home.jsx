@@ -6,14 +6,14 @@ import { useNavigate } from 'react-router-dom';
 import { IndividualJob } from './IndividualJob';
 
 export const Home = () => {
-    const ApiUrl = "http://localhost:1000/api/viewalljobs"
+    const ApiUrl = "api/viewalljobs"
   const [data,setData] =useState([])
   const [item,setItem] =useState({})
 
   const navigate = useNavigate()
   const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
   const [visible,setVisible] = useState(false)
-  const apiUrl ="http://localhost:1000/api/viewsinglejob"
+  const apiUrl ="api/viewsinglejob"
 
 
   useEffect(() => {

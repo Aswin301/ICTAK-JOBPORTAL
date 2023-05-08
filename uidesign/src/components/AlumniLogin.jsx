@@ -5,7 +5,7 @@ import logo from '../images/logosmall.png';
 import { useNavigate } from 'react-router-dom';
 
 export const AlumniLogin = () => {
-    const apiUrl = "http://localhost:1000/api/alumnilogin";
+    const apiUrl = "api/alumnilogin";
 
     const [input, setInput] = useState({});
     const [errors, setErrors] = useState({});

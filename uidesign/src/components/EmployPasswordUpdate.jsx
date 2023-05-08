@@ -5,7 +5,7 @@ import { Headeremployer } from './Headeremployer'
 import { Header } from './Header'
 
 export const EmployPasswordUpdate = () => {
-    const apiUrl = "http://localhost:1000/api/employupdatepassword"
+    const apiUrl = "api/employupdatepassword"
     const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
     const [input,setInput] = useState({})
     const [userid,setuserid] = useState(sessionStorage.getItem("userId"))

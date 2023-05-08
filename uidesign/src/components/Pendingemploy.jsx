@@ -5,9 +5,9 @@ import { Header } from './Header'
 
 export const Pendingemploy = () => {
 
-    const ApiUrl = "http://localhost:1000/api/pendingemployer"
-    const deleteApi = "http://localhost:1000/api/deleteemployee"
-    const verificationApi = "http://localhost:1000/api/verifyemployer"
+    const ApiUrl = "api/pendingemployer"
+    const deleteApi = "api/deleteemployee"
+    const verificationApi = "api/verifyemployer"
     const [data,setData] = useState([])
     const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
 

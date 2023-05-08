@@ -5,7 +5,7 @@ import { Header } from './Header'
 
 
 export const AlumniPasswordUpdate = () => {
-    const apiUrl = "http://localhost:1000/api/alumniupdatepassword"
+    const apiUrl = "api/alumniupdatepassword"
     const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
     const [input,setInput] = useState({})
     const [userid,setuserid] = useState(sessionStorage.getItem("userId"))

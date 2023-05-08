@@ -10,11 +10,11 @@ import { useNavigate } from 'react-router-dom';
 
 export const Postedjobs = (props) => {
   let role = sessionStorage.getItem("role")
-    const deleteApi = "http://localhost:1000/api/deletejob"
+    const deleteApi = "api/deletejob"
   const [data,setData] =useState([])
   const navigate = useNavigate()
   const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
-  const apiURL2="http://localhost:1000/api/employersjobs"
+  const apiURL2="api/employersjobs"
 
 
   useEffect(() => {

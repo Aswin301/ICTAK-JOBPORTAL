@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 import { Header } from './Header'
 
 export const ViewEmployers = () => {
-  const apiUrl = "http://localhost:1000/api/viewemployee"
-  const deleteApi = "http://localhost:1000/api/deleteemployee"
+  const apiUrl = "api/viewemployee"
+  const deleteApi = "api/deleteemployee"
   const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
 
 

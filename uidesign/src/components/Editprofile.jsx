@@ -43,8 +43,8 @@ export const Editprofile = () => {
     const [personalnumberv,changePersonalnumber] = useState('')
     // const [uid,changeId] = useState(null)
 
-    const apiUrl ="http://localhost:1000/api/editemployee"
-    const apiURL2 = "http://localhost:1000/api/viewaemployer"
+    const apiUrl ="api/editemployee"
+    const apiURL2 = "api/viewaemployer"
 
     const [visible,setVisible] = useState(false)
     const [view,setView] = useState(false)

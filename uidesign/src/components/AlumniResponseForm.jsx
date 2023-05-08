@@ -7,7 +7,7 @@ import { Footer } from './Footer'
 
 export const AlumniResponseForm = () => {
 
-  const apiUrl = "http://localhost:1000/api/alumniresponseform"
+  const apiUrl = "api/alumniresponseform"
   const navigate = useNavigate()
     
   

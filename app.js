@@ -8,7 +8,10 @@ const {alumniAddModel} = require('./model/alumniAddModel');
 const { alumniResponseModel } = require('./model/alumniResponseForm');
 const jwt = require("jsonwebtoken")
 const app = express()
-
+const path=require('path')
+console.log(__dirname)
+const pathtobuild=path.join(__dirname+'/build')
+console.log(pathtobuild)
 app.use(cors())
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended: true}))
@@ -599,3 +602,10 @@ app.post('/api/viewalumniresponseform', async(req,res)=>{
     // res.json(data)
 
 })
+
+app.get('*',(req,res)=>{
+    const pathindex=path.join(pathtobuild+'/index.html')
+    console.log(pathindex)
+    res.sendFile(pathindex)
+})
+

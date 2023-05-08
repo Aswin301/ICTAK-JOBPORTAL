@@ -9,6 +9,7 @@
 
 # production
 /build
+/uidesign
 
 # misc
 .DS_Store

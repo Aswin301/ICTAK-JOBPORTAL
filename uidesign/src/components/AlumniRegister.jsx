@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 export const AlumniRegister = () => {
 
-    const apiUrl = "http://localhost:1000/api/alumniregister"
+    const apiUrl = "api/alumniregister"
     const [input,setInput]=useState({})
     const navigate = useNavigate()
 

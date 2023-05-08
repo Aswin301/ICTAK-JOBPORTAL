@@ -22,7 +22,7 @@ export const AlumniProfile = () => {
 
   const [_id,setId] = useState(null)
 
-  const apiUrl ="http://localhost:1000/api/editalumni"
+  const apiUrl ="api/editalumni"
 
   useEffect(() =>{
       setName(localStorage.getItem("name"))

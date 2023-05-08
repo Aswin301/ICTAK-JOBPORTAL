@@ -23,7 +23,7 @@ export const Postajob = () => {
     const post=()=>{
       console.log("first")
       console.log(input)
-        axios.post("http://localhost:1000/api/newjobpost",input)
+        axios.post("api/newjobpost",input)
         .then(response=>{
             console.log(input)
             alert("Job posted")
